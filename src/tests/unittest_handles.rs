@@ -15,7 +15,7 @@ mod tests {
         PREFIX_PUB_META, PREFIX_RECEIVERS, PREFIX_VIEW_KEY,
     };
     use crate::token::{Extension, Metadata, Token};
-    use crate::viewing_key::{ViewingKey, VIEWING_KEY_SIZE};
+    use crate::utils::viewing_key::{ViewingKey, VIEWING_KEY_SIZE};
     use cosmwasm_std::testing::*;
     use cosmwasm_std::{
         from_binary, to_binary, Api, Binary, BlockInfo, CanonicalAddr, Coin, CosmosMsg, Env,
